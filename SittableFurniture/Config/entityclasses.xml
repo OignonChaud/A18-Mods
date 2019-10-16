@@ -59,6 +59,21 @@
 			<property name="Faction" value="none"/>
 			<property name="MapIcon" value="none"/>
 		</entity_class>	
+		
+								<entity_class name="Chair5">
+			<property name="Tags" value="vehicle,rest"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/test.unity3d?Chair5.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="wood"/>
+			<property name="LootListAlive" value="76"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="none"/>
+		</entity_class>	
+		
 				
 		
 						<entity_class name="Ballchair">

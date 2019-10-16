@@ -62,6 +62,22 @@
 			</effect_group>
 		</item>		
 
+					<item name="Chair5">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="DescriptionKey" value="chairwesterndesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/test.unity3d?Chair5.prefab"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="CustomIcon" value="3chair5"/>
+			<property class="Action1">
+				<property name="Vehicle" value="Chair5"/>
+				<property name="VehicleSize" value="0.2, 0.2, 0.2"/>
+			</property>
+			<effect_group name="Base Effects" tiered = "false">
+				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
+			</effect_group>
+		</item>		
+
+
 					<item name="Ballchair">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
 			<property name="DescriptionKey" value="chairbasicdesc"/>

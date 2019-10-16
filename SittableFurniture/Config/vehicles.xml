@@ -271,6 +271,74 @@
 			</property>
 				</vehicle>		
 				
+									<vehicle name="Chair5">
+			<property name="cameraDistance" value="3.5, 7"/>
+			<property name="cameraTurnRate" value="0.25, 0.25"/>
+			<property name="motorTorqueMinQ" value="0"/>
+			<property name="motorTorqueMaxQ" value="0"/>
+			<property name="brakeTorque" value="4000"/>
+			<property name="upAngleMax" value="20"/>
+			<property name="upForce" value="2.5"/>
+			<property name="steerRate" value="0"/>
+			<property name="steerCenteringRate" value="30"/>
+			<property name="tiltAngleMax" value="20"/>
+			<property name="tiltThreshold" value="2"/>
+			<property name="tiltDampening" value=".22"/>
+			<property name="tiltDampenThreshold" value="8"/>
+			<property name="tiltUpForce" value="2"/>
+			<property name="hopForce" value="0"/>
+			<property name="unstickForce" value="1"/>
+			<property name="velocityMax" value="9, 13"/>
+			<property name="waterDrag_y_velScale_velMaxScale" value="1.5, .9, .15"/>
+			<property name="wheelPtlScale" value=".6"/>
+			<property name="hornSound" value="siffle"/>
+			<property class="handlebars">
+				<property name="parent_part" value="chassis"/>
+				<property name="class" value="Steering"/>
+				<property name="slot_type" value="handlebars"/>
+				<property name="transform" value="Origin/steering_joint"/>
+				<property name="steerMaxAngle" value="60"/>
+				<property name="IKHandLPosition" value="-0.2176499, -53.06123201, -10.08973988" />
+				<property name="IKHandRPosition" value="0.2047088, -53.1996158, -10.0223944" />
+				<property name="IKHandLRotation" value="60.9063, 81.0649, 96.0183" />
+				<property name="IKHandRRotation" value="68.06689, -54.7565, -56.0522" />	
+			</property>						
+					<property class="pedals">
+			<property name="parent_part" value="chassis"/>
+			<property name="class" value="Pedals"/>
+			<property name="slot_type" value="pedals"/>
+			<property name="transform" value="Origin/pedal_joint"/>
+			<property name="pedalLPosition" value="0, 0, 0"/>
+			<property name="pedalRPosition" value="0, 0, 0"/>
+			<property name="IKFootLPosition" value="-0.2, 0, 0"/>
+			<property name="IKFootLRotation" value="0, 0, 0"/>
+			<property name="IKFootRPosition" value="0.2, 0, 0"/>
+			<property name="IKFootRRotation" value="0, 0, 0"/>
+			<property name="pedalSound" value="bicycle_pedal"/>
+			<property name="staminaDrain" value="1.5, 15"/>
+		</property>
+		
+							<property class="motor0">
+				<property name="rpmAccel_min_max" value="-1, 1"/>
+				<property name="rpmMax" value="1"/>
+				<property name="rpmDrag" value="0"/>
+				<property name="trigger" value="inputUp"/>
+				<property name="type" value="spin"/>
+				<property name="transform" value=""/>
+				<property name="axis" value="1"/>
+			</property>		
+									<property class="force0">
+				<property name="trigger" value="motor0"/>
+				<property name="type" value="relativeTorque"/>
+				<property name="force" value="0, 0, 0.3"/>
+			</property>		
+			<property class="seat0">
+				<property name="position" value="0.60, 0, 0"/>
+				<property name="rotation" value="-35, 90, 0"/>
+			<property name="exit" value="0,0,-0.6~ -0.7,0,0 ~ 0,0,1.4 ~ 0,0,-1.4 ~ 0,-1.5,0"/>
+			</property>
+				</vehicle>		
+				
 
 
 					<vehicle name="Ballchair">
