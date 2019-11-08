@@ -318,20 +318,6 @@
 			<property name="staminaDrain" value="1.5, 15"/>
 		</property>
 		
-							<property class="motor0">
-				<property name="rpmAccel_min_max" value="-1, 1"/>
-				<property name="rpmMax" value="1"/>
-				<property name="rpmDrag" value="0"/>
-				<property name="trigger" value="inputUp"/>
-				<property name="type" value="spin"/>
-				<property name="transform" value=""/>
-				<property name="axis" value="1"/>
-			</property>		
-									<property class="force0">
-				<property name="trigger" value="motor0"/>
-				<property name="type" value="relativeTorque"/>
-				<property name="force" value="0, 0, 0.3"/>
-			</property>		
 			<property class="seat0">
 				<property name="position" value="0.60, 0, 0"/>
 				<property name="rotation" value="-35, 90, 0"/>
