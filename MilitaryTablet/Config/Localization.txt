@@ -1,0 +1,3 @@
+﻿Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+Tablet,items,Item,EnChanged,Military Tablet, Tablette Militaire,,,,
+tabletdesc,items,Item,EnChanged,"Use Left Click to Zoom In/Out \nPress Right Click to Switch to see-through walls camera","Clic gauche pour Zoom/Dezoom \nClic droit pour passer en caméra thermique",,,,
