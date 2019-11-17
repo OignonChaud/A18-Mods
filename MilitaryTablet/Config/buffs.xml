@@ -20,7 +20,7 @@
 
 <append xpath="/buffs">	
 							<buff name="TabletMarkers">
-		<stack_type value="ignore"/>
+		<stack_type value="replace"/>
 			<update_rate value="2"/>
 		<duration value="0"/>
 		<effect_group>
@@ -40,40 +40,46 @@
 		<effect_group>
 			</effect_group>
 	</buff>
-	
+
 		 <buff name="Marker">
 		<damage_type value="electrical"/>
 		<stack_type value="ignore"/>
 			<update_rate value="1"/>
 		<duration value="0"/>
-		<effect_group>
+		<effect_group name="Marquage">
 <!-- <triggered_effect trigger="onSelfBuffUpdate" action="RemovePrefabFromEntity" target="self" prefab="#@modfolder:Resources/tablet.unity3d?EnemyMarker" parent_transform="Origin"> -->.
-
 				<triggered_effect trigger="onSelfBuffUpdate" action="AttachPrefabToEntity" target="self" prefab="#@modfolder:Resources/tablet.unity3d?EnemyMarker" parent_transform="Origin">
                      <requirement name="EntityTagCompare" tags="zombie"/>
 					  <requirement name="!EntityTagCompare" tags="dog,bear,crawl"/>
+					  <requirement name="IsAlive" target="self"/>
 				</triggered_effect>
 								<triggered_effect trigger="onSelfBuffUpdate" action="AttachPrefabToEntity" target="self" prefab="#@modfolder:Resources/tablet.unity3d?EnemyAltMarker"  local_offset="0,0,0" parent_transform="Origin">
                      <requirement name="EntityTagCompare" tags="zombie"/>
 					  <requirement name="EntityTagCompare" tags="dog"/>
+					  <requirement name="IsAlive" target="self"/>
 				</triggered_effect>
 												<triggered_effect trigger="onSelfBuffUpdate" action="AttachPrefabToEntity" target="self" prefab="#@modfolder:Resources/tablet.unity3d?EnemyAltMarker"  local_offset="0,0,0" parent_transform="Origin">
                      <requirement name="EntityTagCompare" tags="crawl"/>
+					  <requirement name="IsAlive" target="self"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffUpdate" action="AttachPrefabToEntity" target="self" prefab="#@modfolder:Resources/tablet.unity3d?EnemyAltMarker"  local_offset="0,0,0" parent_transform="Graphics">
                      <requirement name="EntityTagCompare" tags="bear"/>
+					  <requirement name="IsAlive" target="self"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffUpdate" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/tablet.unity3d?AnimalMarker" local_offset="0,0,0" parent_transform="Graphics"  local_rotation="0,0,0">
 					  <requirement name="EntityTagCompare" tags="animal"/>
 					  <requirement name="!EntityTagCompare" tags="bear,dog,vulture"/>
+					   <requirement name="IsAlive" target="self"/>
 				</triggered_effect>	
 				<triggered_effect trigger="onSelfBuffUpdate" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/tablet.unity3d?TraderMarker" local_offset="0,0,0" parent_transform="Position"  local_rotation="0,0,90">
 					  <requirement name="EntityTagCompare" tags="npc"/>
+					   <requirement name="IsAlive" target="self"/>
 				</triggered_effect>	
 				<triggered_effect trigger="onSelfBuffUpdate" action="AttachPrefabToEntity" target="self" prefab="#@modfolder:Resources/tablet.unity3d?AllyMarker"  local_offset="0,0,0" parent_transform="Position"  local_rotation="0,0,90">
 					  <requirement name="EntityTagCompare" tags="player"/>
 					  <requirement name="!IsLocalPlayer"/>
 					  <requirement name="NotHasBuff" buff="InVehicle"/>
+					   <requirement name="IsAlive" target="self"/>
 				</triggered_effect>			
 				<!-- <triggered_effect trigger="onSelfBuffUpdate" action="AttachPrefabToEntity" target="self" prefab="#@modfolder:Resources/tablet.unity3d?JeepMarker"  local_offset="0,0,0" parent_transform="Origin"  local_rotation="0,0,0"> -->
 					  <!-- <requirement name="EntityTagCompare" tags="jeep"/> -->
@@ -89,6 +95,15 @@
 				<!-- <triggered_effect trigger="onSelfBuffUpdate" action="RemovePrefabFromEntity" target="self" prefab="/AllyMarker"/>	 -->
 			<!-- </effect_group> -->
 			</effect_group>
+								<effect_group name="Cleanup on death">
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" parent_transform="Position" target="self" prefab="/AllyMarker"/>	
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" parent_transform="Graphics" target="self" prefab="/EnemyAltMarker"/>	
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" parent_transform="Origin" target="self" prefab="/EnemyAltMarker"/>					
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" parent_transform="Position" target="self" prefab="/TraderMarker"/>	
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" parent_transform="Graphics" target="self" prefab="/AnimalMarker"/>	
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" parent_transform="Origin" target="self" prefab="/EnemyMarker"/>	
+			</effect_group>
+			
 					<effect_group>
 		<requirement name="HasBuff" buff="InVehicle"/>
 		 <requirement name="EntityTagCompare" tags="player"/>
