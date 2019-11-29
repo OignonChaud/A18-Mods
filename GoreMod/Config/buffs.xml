@@ -15,6 +15,7 @@
 </effect_group>
 <effect_group name="gorespear">
 <requirement name="HoldingItemHasTags" tags="perkJavelinMaster"/>
+<requirement name="EntityTagCompare" target="other" tags="Entity"/> 
 <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="self" cvar="hitrow" operation="add" value="1"/>
 <triggered_effect trigger="onSelfAttackedOther" action="AddPart" part="Gore1" prefab="#@modfolder:Resources/gore.unity3d?GoreWeapon" localPos="0.02,0.98,0" parentTransform="#HeldItemRoot">
 <requirement name="CVarCompare" target="self" cvar="hitrow" operation="GTE" value="3"/>
@@ -25,6 +26,7 @@
 </effect_group>
 <effect_group name="goreknife">
 <requirement name="HoldingItemHasTags" tags="knife"/>
+<requirement name="EntityTagCompare" target="other" tags="Entity"/> 
 <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="self" cvar="hitrow" operation="add" value="1"/>
 <triggered_effect trigger="onSelfAttackedOther" action="AddPart" part="Gore3" prefab="#@modfolder:Resources/gore.unity3d?GoreWeapon" localPos="0.006,0.06,0" parentTransform="#HeldItemRoot">
 <requirement name="CVarCompare" target="self" cvar="hitrow" operation="GTE" value="3"/>
@@ -35,6 +37,7 @@
 </effect_group>
 <effect_group name="goremachete">
 <requirement name="HoldingItemHasTags" tags="machete"/>
+<requirement name="EntityTagCompare" target="other" tags="Entity"/> 
 <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="self" cvar="hitrow" operation="add" value="1"/>
 <triggered_effect trigger="onSelfAttackedOther" action="AddPart" part="Gore5" prefab="#@modfolder:Resources/gore.unity3d?GoreWeapon" localPos="0.02,0.1,0.06" parentTransform="#HeldItemRoot">
 <requirement name="CVarCompare" target="self" cvar="hitrow" operation="GTE" value="3"/>
@@ -45,6 +48,7 @@
 </effect_group>
 <effect_group name="goreaxe">
 <requirement name="HoldingItemHasTags" tags="axe"/>
+<requirement name="EntityTagCompare" target="other" tags="Entity"/> 
 <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="self" cvar="hitrow" operation="add" value="1"/>
 <triggered_effect trigger="onSelfAttackedOther" action="AddPart" part="Gore7" prefab="#@modfolder:Resources/gore.unity3d?GoreWeapon" localPos="0.008,0.06,0.14" parentTransform="#HeldItemRoot">
 <requirement name="CVarCompare" target="self" cvar="hitrow" operation="GTE" value="3"/>
@@ -55,6 +59,7 @@
 </effect_group>
 <effect_group name="goreshovel">
 <requirement name="HoldingItemHasTags" tags="shovel"/>
+<requirement name="EntityTagCompare" target="other" tags="Entity"/> 
 <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="self" cvar="hitrow" operation="add" value="1"/>
 <triggered_effect trigger="onSelfAttackedOther" action="AddPart" part="Gore9" prefab="#@modfolder:Resources/gore.unity3d?GoreWeapon" localPos="0.06,0.6,0" parentTransform="#HeldItemRoot">
 <requirement name="CVarCompare" target="self" cvar="hitrow" operation="GTE" value="3"/>
@@ -65,6 +70,7 @@
 </effect_group>
 <effect_group name="gorehammer">
 <requirement name="HoldingItemHasTags" tags="perkSkullCrusher"/>
+<requirement name="EntityTagCompare" target="other" tags="Entity"/> 
 <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="self" cvar="hitrow" operation="add" value="1"/>
 <triggered_effect trigger="onSelfAttackedOther" action="AddPart" part="Gore11" prefab="#@modfolder:Resources/gore.unity3d?GoreWeapon" localPos="-0.055,0.12,0.16" parentTransform="#HeldItemRoot">
 <requirement name="CVarCompare" target="self" cvar="hitrow" operation="GTE" value="3"/>
@@ -75,6 +81,7 @@
 </effect_group>
 <effect_group name="gorebat">
 <requirement name="HoldingItemHasTags" tags="Bat"/>
+<requirement name="EntityTagCompare" target="other" tags="Entity"/> 
 <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="self" cvar="hitrow" operation="add" value="1"/>
 <triggered_effect trigger="onSelfAttackedOther" action="AddPart" part="Gore13" prefab="#@modfolder:Resources/gore.unity3d?GoreWeapon" localPos="0.01,0.4,0.02" parentTransform="#HeldItemRoot">
 <requirement name="CVarCompare" target="self" cvar="hitrow" operation="GTE" value="3"/>
@@ -88,6 +95,7 @@
 </effect_group>
 <effect_group name="goreclub">
 <requirement name="HoldingItemHasTags" tags="Cluby"/>
+<requirement name="EntityTagCompare" target="other" tags="Entity"/> 
 <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="self" cvar="hitrow" operation="add" value="1"/>
 <triggered_effect trigger="onSelfAttackedOther" action="AddPart" part="Gore16" prefab="#@modfolder:Resources/gore.unity3d?GoreWeapon"  localPos="0.005,0.18,0.02" parentTransform="#HeldItemRoot">
 <requirement name="CVarCompare" target="self" cvar="hitrow" operation="GTE" value="3"/>
@@ -99,6 +107,7 @@
 <effect_group name="goreknuckles">
 <requirement name="HoldingItemHasTags" tags="perkBrawler"/>
 <requirement name="HoldingItemHasTags" tags="blunt"/>
+<requirement name="EntityTagCompare" target="other" tags="Entity"/> 
 <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="self" cvar="hitrow" operation="add" value="1">
 <requirement name="IsSecondaryAttack"/>
 </triggered_effect>
@@ -124,6 +133,7 @@
 </effect_group>
 <effect_group name="gorepickaxe">
 <requirement name="HoldingItemHasTags" tags="miningTool"/>
+<requirement name="EntityTagCompare" target="other" tags="Entity"/> 
 <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="self" cvar="hitrow" operation="add" value="1"/>
 <triggered_effect trigger="onSelfAttackedOther" action="AddPart" part="Gore18" prefab="#@modfolder:Resources/gore.unity3d?GoreWeapon" localPos="0.005,0.06,0.32" parentTransform="#HeldItemRoot">
 <requirement name="CVarCompare" target="self" cvar="hitrow" operation="GTE" value="3"/>
@@ -131,6 +141,29 @@
 <triggered_effect trigger="onSelfAttackedOther" action="AddPart" part="Gore19" prefab="#@modfolder:Resources/gore.unity3d?GoreWeapon2" localPos="0.005,0.06,0.25" parentTransform="#HeldItemRoot">
 <requirement name="CVarCompare" target="self" cvar="hitrow" operation="GTE" value="3"/>
 </triggered_effect>
+</effect_group>
+
+<effect_group name="goreshotgun">
+<requirement name="HoldingItemHasTags" tags="shotgun"/>
+<requirement name="EntityTagCompare" target="other" tags="Entity"/> 
+<requirement name="TargetRange" target="other" operation="LTE" value="2"/>
+<triggered_effect trigger="onSelfAttackedOther" action="RemovePart" part="GoreShotgun"/>
+<!-- <triggered_effect trigger="onSelfAttackedOther" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/gore.unity3d?GoreRWeapon" parent_transform="Attachments" local_offset="0,-0.2,0.5" local_rotation="0,-90,0"> -->
+<triggered_effect trigger="onSelfAttackedOther" action="AddPart" part="GoreShotgun" prefab="#@modfolder:Resources/gore.unity3d?GoreRWeapon" localPos="0,-0.2,0.5" localRot="0,-90,0" parentTransform="Attachments">
+<requirement name="HoldingItemHasTags" tags="modGunShotgunTubeExtenderMagazine"/>
+<requirement name="CVarCompare" target="self" cvar="hitrow" operation="GTE" value="1"/>
+</triggered_effect>
+<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="self" cvar="hitrow" operation="add" value="1"/>
+<triggered_effect trigger="onSelfAttackedOther" action="AddPart" part="GoreShotgun" prefab="#@modfolder:Resources/gore.unity3d?GoreRWeapon" localPos="0,-0.2,0.5" localRot="0,-90,0" parentTransform="Attachments">
+<requirement name="!HoldingItemHasTags" tags="modGunShotgunTubeExtenderMagazine,flaredBarrel"/>
+<requirement name="CVarCompare" target="self" cvar="hitrow" operation="GTE" value="1"/>
+</triggered_effect>
+<triggered_effect trigger="onSelfAttackedOther" action="AddPart" part="GoreShotgun" prefab="#@modfolder:Resources/gore.unity3d?GoreRWeapon" localPos="0,-0.2,0.25" localRot="0,-90,0" parentTransform="Attachments">
+<requirement name="!HoldingItemHasTags" tags="modGunShotgunTubeExtenderMagazine"/>
+<requirement name="HoldingItemHasTags" tags="flaredBarrel"/>
+<requirement name="CVarCompare" target="self" cvar="hitrow" operation="GTE" value="1"/>
+</triggered_effect>
+
 </effect_group>
 <effect_group name="dismember ranged">
 <requirement name="HoldingItemHasTags" tags="melee,ranged"/>

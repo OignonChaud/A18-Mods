@@ -12,6 +12,7 @@
 <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="RightHandGore"/>
 <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="LeftHandGore2"/>
 <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="RightHandGore2"/>
+<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="GoreShotgun"/>
 <triggered_effect trigger="onSelfWaterSubmerge" action="RemovePart" part="Gore"/>
 <triggered_effect trigger="onSelfWaterSubmerge" action="RemovePart" part="Gore2"/>
 <triggered_effect trigger="onSelfWaterSubmerge" action="RemovePart" part="Gore3"/>
