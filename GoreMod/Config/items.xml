@@ -1,9 +1,5 @@
 <configs>
 
-<append xpath="/items/item_modifier[@name='modMeleeSerratedBlade']/effect_group">
-	<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="self" buff="bleedcalculate"/>
-</append>
-
 <append xpath="/items/item/effect_group[@name]">
     <!-- <effect_group name="gorecvar"> -->
 <triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" target="self" cvar="hitrow" operation="set" value="1"/>
