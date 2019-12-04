@@ -2,6 +2,14 @@
 	
 		<append xpath="/recipes">	
 
+<recipe name="Electric Scooter" count="1" craft_area="workbench">
+	<ingredient name="resourceNail" count="5"/>
+	<ingredient name="resourceElectricParts" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceMetalPipe" count="5"/>
+	<ingredient name="resourceForgedIron" count="4"/>
+	<ingredient name="vehicleWheels" count="2"/>
+</recipe>
 
 <recipe name="Scooter" count="1" craft_area="workbench">
 	<ingredient name="resourceNail" count="5"/>
