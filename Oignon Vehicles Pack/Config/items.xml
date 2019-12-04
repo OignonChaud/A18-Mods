@@ -111,7 +111,7 @@
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
 			<property name="Meshfile" value="#@modfolder:Resources/wip.unity3d?ElectricScooter.prefab"/>
 			<property name="Stacknumber" value="1"/>
-			<property name="CustomIcon" value="3scooter"/>
+			<property name="CustomIcon" value="3elscooter"/>
 			<property class="Action1">
 				<property name="Vehicle" value="Electric Scooter"/>
 				<property name="VehicleSize" value="0.2, 0.2, 0.2"/>
