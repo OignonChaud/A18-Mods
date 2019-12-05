@@ -15,6 +15,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+		<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>
 
 					<item name="Chair2">
@@ -30,6 +32,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>
 
 					<item name="Chair3">
@@ -45,6 +49,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>
 
 					<item name="Chair4">
@@ -60,6 +66,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>		
 
 					<item name="Chair5">
@@ -75,6 +83,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>		
 
 
@@ -91,6 +101,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>		
 		
 					<item name="Trone">
@@ -106,6 +118,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>		
 
 					<item name="Pouf">
@@ -121,6 +135,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>		
 		
 					<item name="Bar Stool">
@@ -136,6 +152,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>				
 		
 					<item name="Shower">
@@ -151,6 +169,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>			
 		
 		
@@ -166,6 +186,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>	
 		
 		
@@ -182,6 +204,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>		
 		
 									<item name="Food Table">
@@ -197,6 +221,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>		
 				
 					<item name="Bath">
@@ -212,6 +238,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>		
 		
 							<item name="Jacuzzi">
@@ -227,6 +255,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>		
 		
 		
@@ -244,6 +274,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>
 		
 
@@ -261,6 +293,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>
 		
 							<item name="Bench">
@@ -276,6 +310,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>		
 		
 									<item name="Swing">
@@ -291,6 +327,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>
 		
 									<item name="Piano">
@@ -306,6 +344,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>
 				
 									<item name="Bed">
@@ -321,6 +361,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>
 		
 											<item name="Hammock">
@@ -336,6 +378,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>
 			
 														<item name="Recliner Chair">
@@ -351,6 +395,8 @@
 			<effect_group name="Base Effects" tiered = "false">
 				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
 			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>
 			
 		</append>

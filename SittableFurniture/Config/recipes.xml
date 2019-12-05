@@ -2,14 +2,14 @@
 	
 		<append xpath="/recipes">	
 
-		<recipe name="Piano" count="1" craft_time="10" craft_area="tablesaw">
+		<recipe name="Piano" count="1" craft_time="10" craft_area="tablesaw" tags="tableSawCrafting">
 	<ingredient name="resourceWood" count="10"/>
 	<ingredient name="resourceForgedIron" count="5"/>
 	<ingredient name="resourceMechanicalParts" count="10"/>
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
-<recipe name="Superior Couch" count="1" craft_area="tablesaw">
+<recipe name="Superior Couch" count="1" craft_area="tablesaw" tags="tableSawCrafting">
 	<ingredient name="resourceLeather" count="25"/>
 	<ingredient name="resourceNail" count="30"/>
 	<ingredient name="resourceWood" count="10"/>

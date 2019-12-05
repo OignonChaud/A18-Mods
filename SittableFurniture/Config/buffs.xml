@@ -54,10 +54,10 @@
 <passive_effect name="WaterChangeOT" operation="base_subtract" value="0.5"/>
 		</effect_group>	
 		<effect_group>
-				<requirement name="CVarCompare" cvar="$ToiletCounter" operation="GTE" value="25"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffIllDysentery0"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffIllDysentery1"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffIllDysentery2"/>
+				<requirement name="CVarCompare" cvar="$ToiletCounter" operation="Equals" value="25"/>
+		<display_value name="dCureDysentery" value=".2"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDysenteryAddCurePerc" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDysenteryAddCure"/>
 		</effect_group>
 	</buff>		
 	
