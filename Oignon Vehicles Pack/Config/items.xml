@@ -77,6 +77,23 @@
 	</effect_group>
 		</item>			
 		
+													<item name="Kart">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/wip.unity3d?Kart.prefab"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="CustomIcon" value="3kart"/>
+			<property class="Action1">
+				<property name="Vehicle" value="Kart"/>
+				<property name="VehicleSize" value="0.2, 0.2, 0.2"/>
+			</property>
+	<property name="EconomicValue" value="400"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="DegradationMax" operation="base_set" value="2500,5500" tier="1,6"/>
+	</effect_group>
+		</item>		
+
+
+
 											<item name="Skate">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
 			<property name="Meshfile" value="#@modfolder:Resources/wip.unity3d?Skate.prefab"/>
@@ -103,7 +120,7 @@
 			</property>
 				<property name="EconomicValue" value="400"/>
 	<effect_group name="Base Effects">
-		<passive_effect name="DegradationMax" operation="base_set" value="3500,7000" tier="1,6"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="3000,7000" tier="1,6"/>
 	</effect_group>
 		</item>		
 		
@@ -118,7 +135,7 @@
 			</property>
 				<property name="EconomicValue" value="400"/>
 	<effect_group name="Base Effects">
-		<passive_effect name="DegradationMax" operation="base_set" value="5000,10000" tier="1,6"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="3000,7000" tier="1,6"/>
 	</effect_group>
 		</item>		
 

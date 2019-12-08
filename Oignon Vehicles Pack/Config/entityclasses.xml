@@ -16,6 +16,21 @@
 	<property name="MapIcon" value="ui_game_symbol_chair"/>
 		</entity_class>		
 				
+														<entity_class name="Kart">			
+				<property name="Tags" value="vehicle,pedal"/>
+	<property name="Class" value="EntityVJeep"/>
+	<property name="Parent" value="Cars"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="SurfaceCategory" value="wood"/>
+	<property name="Prefab" value="#@modfolder:Resources/wip.unity3d?Kart.prefab"/>
+	<property name="IgnoreTrigger" value="true"/>
+	<property name="LootListAlive" value="76"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="RotateToGround" value="true"/>
+	<property name="Faction" value="none"/>
+	<property name="MapIcon" value="ui_game_symbol_bicycle"/>
+		</entity_class>
+		
 										<entity_class name="Skate">			
 				<property name="Tags" value="vehicle"/>
 	<property name="Class" value="EntityBicycle"/>
@@ -109,7 +124,7 @@
 		</entity_class>			
 
 										<entity_class name="Electric Scooter">			
-				<property name="Tags" value="vehicle"/>
+				<property name="Tags" value="vehicle,pedal"/>
 	<property name="Class" value="EntityBicycle"/>
 	<property name="Parent" value="Cars"/>
 	<property name="ModelType" value="Standard"/>

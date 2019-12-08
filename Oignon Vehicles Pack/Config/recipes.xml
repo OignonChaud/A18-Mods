@@ -2,6 +2,14 @@
 	
 		<append xpath="/recipes">	
 
+<recipe name="Kart" count="1" craft_area="workbench" craft_time="90">
+	<ingredient name="vehicleWheels" count="4"/>
+	<ingredient name="vehicleMinibikeChassis" count="1"/>
+	<ingredient name="vehicleMinibikeHandlebars" count="1"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="carBattery" count="1"/>
+</recipe>
+
 <recipe name="Electric Scooter" count="1" craft_area="workbench">
 	<ingredient name="resourceNail" count="5"/>
 	<ingredient name="resourceElectricParts" count="20"/>
