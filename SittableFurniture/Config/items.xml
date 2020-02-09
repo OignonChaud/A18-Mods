@@ -278,7 +278,24 @@
 	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>
 		
-
+		
+							<item name="Golden Toilet">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="DescriptionKey" value="chairbasicdesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/test.unity3d?GoldenToilet.prefab"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="CustomIcon" value="3gtoilet"/>
+			<property class="Action1">
+				<property name="Vehicle" value="Golden Toilet"/>
+				<property name="VehicleSize" value="0.2, 0.2, 0.2"/>
+			</property>
+			<effect_group name="Base Effects" tiered = "false">
+				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
+			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
+		</item>
+		
 		
 							<item name="Superior Couch">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
@@ -364,6 +381,25 @@
 					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
 	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
 		</item>
+		
+						
+									<item name="Bed 2">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="DescriptionKey" value="chairbeddesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/test.unity3d?Bed2.prefab"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="CustomIcon" value="3bed2"/>
+			<property class="Action1">
+				<property name="Vehicle" value="Bed 2"/>
+				<property name="VehicleSize" value="0.2, 0.2, 0.2"/>
+			</property>
+			<effect_group name="Base Effects" tiered = "false">
+				<passive_effect name="DegradationMax" operation="base_set" value="100"/>
+			</effect_group>
+					<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+	<property name="Group" value="Decor/Miscellaneous"/><property name="Group" value="Decor/Miscellaneous"/>
+		</item>
+		
 		
 											<item name="Hammock">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>

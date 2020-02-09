@@ -92,6 +92,14 @@
 	<ingredient name="resourceWood" count="4"/>
 </recipe>
 
+<recipe name="Golden Toilet" count="1" craft_area="tablesaw">
+	<ingredient name="resourceMetalPipe" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+	<ingredient name="resourceWood" count="4"/>
+	<ingredient name="resourceGoldNugget" count="3"/>
+	
+</recipe>
+
 <recipe name="Shower" count="1" craft_area="tablesaw">
 	<ingredient name="resourceMetalPipe" count="20"/>
 	<ingredient name="resourceMechanicalParts" count="15"/>
@@ -120,10 +128,16 @@
 </recipe>
 
 
-<recipe name="Bed Structure" count="1" craft_area="tablesaw">
+<recipe name="Bed Frame" count="1" craft_area="tablesaw">
 	<ingredient name="resourceNail" count="10"/>
 	<ingredient name="resourceWood" count="20"/>
 </recipe>
+
+<recipe name="Bed Frame 2" count="1" craft_area="tablesaw">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="20"/>
+</recipe>
+
 
 <recipe name="Recliner Chair" count="1" craft_area="tablesaw">
 	<ingredient name="resourceNail" count="5"/>
@@ -136,6 +150,10 @@
 	<ingredient name="resourceCropCottonPlant" count="20"/>
 </recipe>
 
+<recipe name="Bed 2" count="1" craft_area="tablesaw">
+	<ingredient name="resourceCloth" count="30"/>
+	<ingredient name="resourceCropCottonPlant" count="20"/>
+</recipe>
 
 		</append>
 </configs>

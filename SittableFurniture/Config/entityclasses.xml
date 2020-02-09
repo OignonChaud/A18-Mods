@@ -235,6 +235,21 @@
 			<property name="MapIcon" value="none"/>
 		</entity_class>
 		
+						<entity_class name="Golden Toilet">
+			<property name="Tags" value="vehicle,toilet"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/test.unity3d?GoldenToilet.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="wood"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="76"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="RotateToGround" value="false"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="none"/>
+		</entity_class>		
+		
 						<entity_class name="Superior Couch">
 			<property name="Tags" value="vehicle,rest"/>
 			<property name="Class" value="EntityVJeep"/>
@@ -300,6 +315,21 @@
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/test.unity3d?Bed.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="wood"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="76"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="RotateToGround" value="false"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="none"/>
+		</entity_class>
+		
+								<entity_class name="Bed 2">
+			<property name="Tags" value="vehicle,sleep"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/test.unity3d?Bed2.prefab"/>
 			<property name="ModelType" value="Standard"/>
 			<property name="SurfaceCategory" value="wood"/>
 			<property name="IgnoreTrigger" value="true"/>

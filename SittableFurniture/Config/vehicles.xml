@@ -640,7 +640,100 @@
 			</property>
 				</vehicle>
 		 
+									<vehicle name="Golden Toilet">
+			<property name="cameraDistance" value="3.5, 7"/>
+			<property name="cameraTurnRate" value="0.25, 0.25"/>
+			<property name="motorTorqueMinQ" value="0"/>
+			<property name="motorTorqueMaxQ" value="0"/>
+			<property name="brakeTorque" value="4000"/>
+			<property name="upAngleMax" value="30"/>
+			<property name="upForce" value="1"/>
+			<property name="steerRate" value="130"/>
+			<property name="steerCenteringRate" value="30"/>
+			<property name="tiltAngleMax" value="20"/>
+			<property name="tiltThreshold" value="3"/>
+			<property name="tiltDampening" value=".22"/>
+			<property name="tiltDampenThreshold" value="8"/>
+			<property name="tiltUpForce" value="0"/>
+			<property name="hopForce" value="0"/>
+			<property name="unstickForce" value="1"/>
+			<property name="velocityMax" value="9, 13"/>
+			<property name="waterDrag_y_velScale_velMaxScale" value="1.5, .9, .15"/>
+			<property name="wheelPtlScale" value=".6"/>
+			<property name="hornSound" value="pisse"/>
+			<property class="handlebars">
+				<property name="parent_part" value="chassis"/>
+				<property name="class" value="Steering"/>
+				<property name="slot_type" value="handlebars"/>
+				<property name="transform" value="Origin/steering_joint"/>
+				<property name="steerMaxAngle" value="60"/>
+				<property name="IKHandLPosition" value="-0.8176499, -40.06123201, -10.08973988" />
+				<property name="IKHandRPosition" value="0.8047088, -40.1996158, -10.0223944" />
+				<property name="IKHandLRotation" value="60.9063, 81.0649, 96.0183" />
+				<property name="IKHandRRotation" value="68.06689, -54.7565, -56.0522" />	
+			</property>			
+			<property class="seat0">
+				<property name="position" value="0.60, -0.1, 0"/>
+				<property name="rotation" value="-35, 90, 0"/>
+			<property name="exit" value="0.7,0,-0.01~ -0.02,0,0 ~ 0,0,1.4 ~ 0,0,-1.4 ~ 0,-1.5,0"/>
+			</property>
+				</vehicle>
+				
 		 					<vehicle name="Bed">
+			<property name="cameraDistance" value="3.5, 7"/>
+			<property name="cameraTurnRate" value="0.25, 0.25"/>
+			<property name="motorTorqueMinQ" value="0"/>
+			<property name="motorTorqueMaxQ" value="0"/>
+			<property name="brakeTorque" value="4000"/>
+			<property name="upAngleMax" value="30"/>
+			<property name="upForce" value="1"/>
+			<property name="steerRate" value="130"/>
+			<property name="steerCenteringRate" value="30"/>
+			<property name="tiltAngleMax" value="20"/>
+			<property name="tiltThreshold" value="3"/>
+			<property name="tiltDampening" value=".22"/>
+			<property name="tiltDampenThreshold" value="8"/>
+			<property name="tiltUpForce" value="0"/>
+			<property name="hopForce" value="0"/>
+			<property name="unstickForce" value="1"/>
+			<property name="velocityMax" value="9, 13"/>
+			<property name="waterDrag_y_velScale_velMaxScale" value="1.5, .9, .15"/>
+			<property name="wheelPtlScale" value=".6"/>
+			<property name="hornSound" value="ronfle"/>
+			<property class="handlebars">
+				<property name="parent_part" value="chassis"/>
+				<property name="class" value="Steering"/>
+				<property name="slot_type" value="handlebars"/>
+				<property name="transform" value="Origin/steering_joint"/>
+				<property name="steerMaxAngle" value="0"/>
+				<property name="IKHandLPosition" value="-10.6576499, -34.06123201, 20.08973988" />
+				<property name="IKHandRPosition" value="8.6447088, -34.1996158, 20.0223944" />
+				<property name="IKHandLRotation" value="80.9063, 81.0649, 106.0183" />
+				<property name="IKHandRRotation" value="80.06689, -54.7565, -106.0522" />	
+			</property>		
+
+		<property class="pedals">
+			<property name="parent_part" value="chassis"/>
+			<property name="class" value="Pedals"/>
+			<property name="slot_type" value="pedals"/>
+			<property name="transform" value="Origin/pedal_joint"/>
+			<property name="pedalLPosition" value="0, 0, 0"/>
+			<property name="pedalRPosition" value="0, 0, 0"/>
+			<property name="IKFootLPosition" value="-0.20, 0.35, 0.3"/>
+			<property name="IKFootLRotation" value="-90, 0, 0"/>
+			<property name="IKFootRPosition" value="0.25, 0.35, 0.3"/>
+			<property name="IKFootRRotation" value="-90, 0, 0"/>
+			<property name="pedalSound" value="bicycle_pedal"/>
+			<property name="staminaDrain" value="1.5, 15"/>
+		</property>
+			<property class="seat0">
+				<property name="position" value="0.60, 0.83, 0"/>
+				<property name="rotation" value="-115, 90, 0"/>
+			<property name="exit" value="0,0,-1~ -1.1,0,0 ~ 0,0,1.4 ~ 0,0,-1.4 ~ 0,-1.5,0"/>
+			</property>
+				</vehicle>
+				
+						 					<vehicle name="Bed 2">
 			<property name="cameraDistance" value="3.5, 7"/>
 			<property name="cameraTurnRate" value="0.25, 0.25"/>
 			<property name="motorTorqueMinQ" value="0"/>
