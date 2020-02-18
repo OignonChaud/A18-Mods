@@ -176,6 +176,7 @@
 		
 									<item name="Carousel">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="DescriptionKey" value="carouseldesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/test.unity3d?Carousel.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="3carousel"/>

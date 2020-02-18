@@ -28,6 +28,7 @@
 <recipe name="Chair3" count="1" craft_area="tablesaw">
 	<ingredient name="resourceNail" count="5"/>
 	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceCloth" count="8"/>
 </recipe>
 
 <recipe name="Chair4" count="1" craft_area="tablesaw">
